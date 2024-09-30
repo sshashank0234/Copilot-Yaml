@@ -4,7 +4,7 @@ info:
   description: "CheckPhish API for URL scanning"
   version: "1.0.0"
 servers:
-  - url: "https://developers.checkphish.ai/api"
+  - url: "http://0.0.0.0:3005/api"
 
 paths:
   /neo/copilot/scan:
