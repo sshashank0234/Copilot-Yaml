@@ -8,7 +8,7 @@ servers:
 
 paths:
   /neo/copilot/scan:
-    get:
+    post:
       summary: "Scan a URL"
       description: "Scan a specific URL using CheckPhish"
       requestBody:
